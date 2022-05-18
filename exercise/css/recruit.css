@@ -1,0 +1,27 @@
+body{background-color: blue;}
+#recruit{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white url(../mic.png) no-repeat;
+    background-position: bottom right;
+    
+}
+ul{
+    list-style: none;
+    line-height: 2em;}
+h1{
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{  
+    font-weight: bold;
+    color: red;}
