@@ -1,0 +1,11 @@
+#contents{width: 630px; height: 420px;
+    background: url(/exercise/image/bg.jpg);
+    /* 부모 요소가 기준이 됨 */
+    position: relative;
+    }
+#contents h1{color: white;
+            text-shadow: 2px 2px 2px black;
+            font-size: 100px;
+            position: absolute;
+            right:60px;
+            bottom: 30px;}
