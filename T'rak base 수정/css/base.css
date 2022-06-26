@@ -28,17 +28,16 @@ section h2{margin: 50px; font-weight: bold;}
 
 /* 내 정보 입력하기 */
 
+
 #info{
     width: 300px; height: 400px; padding: 20px; 
     border: 1px solid #FD6A80; border-radius: 10px;
-    padding-left: 40px;
-    }
+    padding-left: 40px;}
 label{font-weight: bold;}
 #name{
     width: 150px; height: 50px;
-    border: 1px solid lightgray; border-radius: 10px;
-}
-
+    border: 1px solid lightgray; border-radius: 10px;}
+#gender{margin: 0 30px;}
 #gender input[type="radio"]{display: none;}
 #gender label{
               display: inline-block; margin: 0; color: #aaa; padding: 15px 25px; 
