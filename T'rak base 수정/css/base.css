@@ -27,8 +27,6 @@ section{height: 700px; width: 100%;}
 section h2{margin: 50px; font-weight: bold;}
 
 /* 내 정보 입력하기 */
-
-
 #info{
     width: 300px; height: 400px; padding: 20px; 
     border: 1px solid #FD6A80; border-radius: 10px;
@@ -37,11 +35,15 @@ label{font-weight: bold;}
 #name{
     width: 150px; height: 50px;
     border: 1px solid lightgray; border-radius: 10px;}
-#gender{margin: 0 30px;}
+/* p{font-weight: bold;}
+#gender{width: 150px; height: 60px;}
+#male{width: 60px; height: 50px; background: #FD6A80; color: white; text-align: center;}
+#female{width: 60px; height: 50px; background: #FD6A80; color: white; text-align: center;} */
+
+#gender{margin: 0 30px; width: 80%;}
+p{width: 20%; float: left; font-weight: bold;}
 #gender input[type="radio"]{display: none;}
-#gender label{
-              display: inline-block; margin: 0; color: #aaa; padding: 15px 25px; 
-              text-align: center; border: 1px solid transparent;}
+#gender label{ width: 60px; height: 50px; text-align: center; line-height: 50px;}
 #gender label:hover{color: #222; cursor: pointer;}
 #gender input:checked + label{color: #FD6A80; border: 1px solid #ddd; background: #eee;}
 
